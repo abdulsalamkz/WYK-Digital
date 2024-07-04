@@ -8,12 +8,18 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
-.color {
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-primary {
   background: #f28947;
+  font-size: 14px !important;
 }
 .nav-font {
   font-size: 14px !important;
+}
+.nav-font:hover{
+  color: #f28947 !important;
 }
 @media only screen and (max-width: 1200px) {
   .nav-link {
@@ -46,7 +52,7 @@ h1 {
     border-radius: 20px;
     background-color: #d3acff;
 }
-input::placeholder {
+:placeholder {
   color: #8D98AF !important;
   opacity: 1; 
 }
