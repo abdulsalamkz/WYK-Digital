@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="btn-primary p-2">
+    <div class="btn-primary p-2 position-fixed top-0 w-100 z-1">
         <div class="text-center">
             Applications for our <strong>Digital Marketing</strong> programme are
             now open in
@@ -23,55 +23,73 @@
                 <a class="text-black" href="#">Apply Now</a> •</strong>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-black">
+    <nav class="navbar navbar-expand-lg bg-black position-fixed w-100 z-1" style="top: 37px">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./assets/img/WYK Main Logo 1.png" alt="Logo" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-white"></span>
+                <span><i class="fa-solid fa-bars" style="color: grey"></i></span>
             </button>
             <div class="collapse navbar-collapse py-2" id="navbarText">
                 <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle py-2 px-3 text-white nav-font" href="#" role="button"
+                        <a class="nav-link py-2 d-flex px-3 text-white nav-font" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Programmes
+                            Programmes<i class="fa-solid mt-1 ms-1 fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu mt-2 rounded-0 bg-black rounded-bottom">
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Performance marketing</a>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Performance marketing</a>
                             </li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Customer tect</a></li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Digital marketing</a></li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">SEO</a></li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Data analytics</a></li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Tech sales</a></li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Early careers leadership</a>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Customer tect</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Digital marketing</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">SEO</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Data analytics</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Tech sales</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Early careers leadership</a>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link py-2 px-3 text-white nav-font" href="#">Recruit our talent</a>
+                        <a class="nav-link py-2 px-3 text-white nav-font" href="./recruit.html">Recruit our talent</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle py-2 px-3 text-white nav-font" href="#" role="button"
+                        <a class="nav-link py-2 px-3 text-white nav-font" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                           Support us
+                            Support us<i class="fa-solid mt-1 ms-1 fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu mt-2 rounded-0 bg-black rounded-bottom">
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">As a buisness</a>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">As a buisness</a>
                             </li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">As an individual</a></li>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">As an individual</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle py-2 px-3 text-white nav-font" href="#" role="button"
+                        <a class="nav-link py-2 px-3 text-white nav-font" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                           About us
+                            About us<i class="fa-solid mt-1 ms-1 fa-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu mt-2 rounded-0 bg-black rounded-bottom">
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Equality,diversity and inclusion</a>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Equality,diversity and
+                                    inclusion</a>
                             </li>
-                            <li><a class="dropdown-item nav-font text-white py-2" href="#">Careers</a>
+                            <li>
+                                <a class="dropdown-item nav-font text-white py-2" href="#">Careers</a>
                             </li>
                         </ul>
                     </li>
@@ -293,36 +311,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row py-3 d-flex justify-content-evenly">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h1 class="text-center"><strong>78%</strong></h1>
-                    <p style="
-                border-top: 4px solid #f28947;
-                font-size: 18px;
-                font-weight: 600;
-              ">
-                        of our trainees come from minority backgrounds
-                    </p>
+            <div class="row py-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="px-lg-3">
+                        <h1 class="text-center"><strong>78%</strong></h1>
+                        <p style="border-top: 4px solid #f28947;font-size: 18px;font-weight: 600;">
+                            of our trainees come from minority backgrounds
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h1 class="text-center"><strong>over 70%</strong></h1>
-                    <p style="
-                border-top: 4px solid #f28947;
-                font-size: 18px;
-                font-weight: 600;
-              ">
-                        of our trainees are on universal credit
-                    </p>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="px-lg-3">
+                        <h1 class="text-center"><strong>over 70%</strong></h1>
+                        <p style="border-top: 4px solid #f28947;font-size: 18px;font-weight: 600;">
+                            of our trainees are on universal credit
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <h1 class="text-center"><strong>over 61%</strong></h1>
-                    <p style="
-                border-top: 4px solid #f28947;
-                font-size: 18px;
-                font-weight: 600;
-              ">
-                        of our trainees are female or non-binary
-                    </p>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="px-lg-3">
+                        <h1 class="text-center"><strong>over 61%</strong></h1>
+                        <p style="border-top: 4px solid #f28947;font-size: 18px;font-weight: 600;">
+                            of our trainees are female or non-binary
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -495,22 +507,18 @@
             <div class="row py-5 gap-5">
                 <div class="col-lg-4 col-12">
                     <div class="p-2">
-                        <h2 class="anton">
-                            Not sure which programme?
-                        </h2>
+                        <h2 class="anton">Not sure which programme?</h2>
                         <p>
-                            Send us a quick message with your questions, queries or anything else and we’ll get back to
-                            you as soon as possible.
+                            Send us a quick message with your questions, queries or anything
+                            else and we’ll get back to you as soon as possible.
                         </p>
                         <button class="py-2 ms-1 px-4 border border-0 rounded text-black btn-primary">
-                           Contact us
+                            Contact us
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7 rounded-4 p-5" style="background: #FEF6F1;">
-                    <h3 class="text-center mb-5">
-                        Get in touch
-                    </h3>
+                <div class="col-lg-7 rounded-4 p-5" style="background: #fef6f1">
+                    <h3 class="text-center mb-5">Get in touch</h3>
                     <form>
                         <div class="row mb-4">
                             <div class="mb-3">
@@ -529,7 +537,7 @@
                                     <label class="form-label" for="form6Example2">Last name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" id="form6Example2"
-                                        class="form-control  bg-light border border-0 p-3" placeholder="Deo" />
+                                        class="form-control bg-light border border-0 p-3" placeholder="Deo" />
                                 </div>
                             </div>
                         </div>
@@ -569,20 +577,50 @@
     </section>
     <footer class="bg-black">
         <div class="container">
-            <div class="row py-5 ">
-                <div class="col-2">
-                    <img src="./assets/img/WYK Main Logo 1.png" alt="">
-                    <button class="py-2 ms-1 px-4 border border-0 rounded text-black btn-primary">
-                       Contact us
+            <div class="row py-5 d-lg-flex justify-content-between">
+                <div class="col-lg-2 me-lg-5 col-md-6 col-12">
+                    <img src="./assets/img/WYK Main Logo 1.png" alt="" />
+                    <button class="py-2 my-3 ms-1 px-4 border border-0 rounded text-black btn-primary">
+                        Contact us
                     </button>
-                    <span>info@wykdigital.com</span>
-                    <span>+44 (0) 300 102 1649</span>
-                    <div class="d-flex">
-                        <i class="fa-brands text-white icon fa-tiktok"></i>
-                        <i class="fa-brands text-white fa-youtube"></i>
-                        <i class="fa-brands text-white fa-instagram"></i>
-                        <i class="fa-brands text-white fa-linkedin"></i>
+                    <div>
+                        <p class="text-white my-2">info@wykdigital.com</p>
+                        <p class="text-white my-2">+44 (0) 300 102 1649</p>
                     </div>
+                    <div class="d-flex my-2 justify-content-center">
+                        <a class="nav-link px-2 text-white" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a class="nav-link px-2 text-white" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="nav-link px-2 text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link px-2 text-white" href="#"><i
+                                class="fa-brands text-white fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h6 class="text-white">About us</h6>
+                    <ul class="text-white list-unstyled">
+                        <li class="my-2">About us</li>
+                        <li class="my-2">About WYK</li>
+                        <li class="my-2">Careers</li>
+                        <li class="my-2">Contact Us</li>
+                        <li class="my-2">Support Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h6 class="text-white">Resources</h6>
+                    <ul class="text-white list-unstyled">
+                        <li class="my-2">News & Blog</li>
+                        <li class="my-2">All Programmes</li>
+                        <li class="my-2">Recruit Our Talent</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-6 col-12">
+                    <h6 class="text-white">Policies</h6>
+                    <ul class="text-white list-unstyled">
+                        <li class="my-2">WYK Group Limited Privacy Policy</li>
+                        <li class="my-2">WYK Group Limited ED & I Policy</li>
+                        <li class="my-2">WYK Group Limited Carbon Reduction Policy</li>
+                        <li class="my-2">WYK Group Limited Modern Slavery Statement</li>
+                    </ul>
                 </div>
             </div>
         </div>
