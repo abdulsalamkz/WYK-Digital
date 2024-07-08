@@ -60,3 +60,56 @@ h1 {
 input:focus{
   outline: 5px solid #f8f9fa !important;
 }
+.tiktok:hover{
+  background: -webkit-linear-gradient(#9500ff, #0038d1) !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.youtube:hover{
+  background: -webkit-linear-gradient(red , red) !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.insta:hover{
+  background: -webkit-linear-gradient(yellow,purple) !important;
+ background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.svg-div{
+  position: relative;
+  height: 200px;
+width: 200px;
+}
+.yellow-circle{
+  background-color: #E9FF78;
+  border-radius: 100px;
+height: 100%;
+width: 100%   ;
+
+}
+.svg-text{
+width: 330px;
+}
+.arrow-1::after{
+  content: url(./assets/img/arrow-1.png);
+  position: absolute;
+  top: 163px;
+  left: -6px;
+}
+.arrow-2::after{
+  content: url(./assets/img/arrow-2.png);
+  position: absolute;
+  top: -60px;
+  left: 173px;
+}
+.arrow-3::after{
+  content: url(./assets/img/arrow-3.png);
+  position: absolute;
+  top: 10px;
+  left: 180px;
+}
+.flow-card{
+  width: 328px !important;
+  height: 468px !important;
+}
