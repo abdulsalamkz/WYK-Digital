@@ -18,8 +18,12 @@ body {
 .nav-font {
   font-size: 14px !important;
 }
-.nav-font:hover{
+.hover:hover{
   color: #f28947 !important;
+}
+.nav-hover:hover{
+  color: #f28947 !important;
+  border-bottom: 5px solid #f28947;
 }
 @media only screen and (max-width: 1200px) {
   .nav-link {
