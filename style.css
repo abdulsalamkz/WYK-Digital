@@ -117,3 +117,16 @@ width: 330px;
   width: 328px !important;
   height: 468px !important;
 }
+.masonry {
+  column-count: 2; /* Number of columns */
+  column-gap: 1em; /* Gap between columns */
+}
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1em;
+}
+.masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
