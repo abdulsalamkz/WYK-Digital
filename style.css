@@ -15,6 +15,10 @@ body {
   background: #f28947;
   font-size: 14px !important;
 }
+.btn-primary:hover{
+  background: #ff9c5f !important;
+
+}
 .nav-font {
   font-size: 14px !important;
 }
